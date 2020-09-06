@@ -1,0 +1,53 @@
+h1{
+	font-family:"Times New Roman";
+	font-size:30px;
+}
+body{
+	background-color:hsl(0, 100%, 100%);
+}
+.login{
+	box-sizing:border-box;
+	border:1px solid black;
+     float:center;
+	height:300px;
+	width:40%;
+	text-align:center;
+	background-color:#ccccb3;
+	margin:0 auto
+}
+.container{
+	
+	text-align:center;
+	margin:auto auto;
+	max-width:90%;
+}
+label{
+	font-family:"Times New Roman";
+	font-size:24px;
+	cursor:default;
+    float:left;
+}
+input[type=text]
+{
+	box-sizing:border-box;
+	border:1px solid black;
+	width:100%;
+	padding:2px 22px;
+	 display: inline-block;
+}
+input[type=password]
+{
+	box-sizing:border-box;
+	border:1px solid black;
+	width:100%;
+	padding: 2px 22px;
+	 display: inline-block;
+}
+input[type=submit]
+{
+	background-color:#bfff80;
+	text-color:white;
+	cursor:pointer;
+	width:100%;
+	padding: 12px 32px;
+}
